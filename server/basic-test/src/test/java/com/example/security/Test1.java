@@ -1,4 +1,4 @@
-package com.sp.fc;
+package com.example.security;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

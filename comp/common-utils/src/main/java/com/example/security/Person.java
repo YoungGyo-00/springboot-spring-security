@@ -1,4 +1,4 @@
-package com.sp.fc;
+package com.example.security;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
