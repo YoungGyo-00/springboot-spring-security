@@ -22,6 +22,31 @@
 * 로그인 -> `authenticated == true` 인 `Authentication` 객체를 `SecurityContext`에 갖고 있는 상태
 * `AuthenticationManager`를 통해 `Authentication` 인증 -> `SecurityContextHolder`
 ![AuthenticationStructure](./image/AuthenticationStructure.png)
+
+
+### Basic Login
+* `CSRF` : 사이트 간 요청 위조
+  * `CsrfFilter` : 서버는 모든 요청에 토큰을 클라이언트에 전달, 클라이언트는 토큰을 HTTP Parameter 또는 헤더로 전달
+
+* `WebSecurityConfiguerAdapter`를 상속받은 `config`에 `@EnableWebSecuriy` -> `SpringSecurityFilterChain`이 자동 포함
+* `@EnableWebSecurity`
+  * 웹 보안을 활성화
+  * `WebSecurityConfigureAdapter`를 확장한 빈으로 설정되어야 유용.
+```java
+@EnableWebSecurity
+public class SecurityConfig extends WebSecurityConfigureAdapter{
+    
+}
+```
+
+* `WebSecurityConfigureAdapter` 3가지 `Confiure()`
+  * `configure(WebSecurity)` : 필터 연결 오바라이딩
+  * `configure(HttpSecurity)` : 요청을 안전하게 보호하기 위한 설정
+  * `configure(AuthenticationManagerBuilder)` : 사용자 세부 서비스 설정
+
+
+* `RoleHierarchy` : `role`에 계층 구도 설정
+* `AuthenticationDetailsSource ` : `authentication`의 `details`를 커스터마이징
 ## 실행 오류
 * [build.gradle - Could not find method compile()](https://devdavelee.tistory.com/29)
     * `compile` 대신 `implementation` 수정 후 reload
