@@ -3,4 +3,6 @@
 #
 # These are explicitly windows files and should use crlf
 *.bat           text eol=crlf
-
+*.js linguist-vendored=false
+*.html linguist-vendored=false
+*.css linguist-vendored=false
