@@ -44,9 +44,25 @@ public class SecurityConfig extends WebSecurityConfigureAdapter{
   * `configure(HttpSecurity)` : 요청을 안전하게 보호하기 위한 설정
   * `configure(AuthenticationManagerBuilder)` : 사용자 세부 서비스 설정
 
-
+* `@PreAuthorize` : `ROLE` 기반의 권한 처리
 * `RoleHierarchy` : `role`에 계층 구도 설정
 * `AuthenticationDetailsSource ` : `authentication`의 `details`를 커스터마이징
+
+### Authentication Mechanism
+* `Authentication` : 인증된 결과만 저장 x, 인증을 하기 위한 정보 + 인증을 받기 위한 정보
+* `AuthenticationProvider` : 어떤 인증에 대해 허가를 내줄지 직접 보고
+  * `support` : 처리 가능한 `Authentication` 알려줌
+  * `authenticate()` : `Authentication` 입력값과 동시에 출력값
+    * `Credentails` : 인증을 받기 위해 필요한 정보, 비번 등(input)
+    * `Principal` : 인증된 결과, 대상(output)
+    * `Details` : 기타 정보, 인증에 관여된 정보
+    * `Authorities` : 구현 정보들
+
+
+* `AuthenticationProvider` : 인증하고, 결과 리턴 -> `support` 메소드 지원
+* `AuthenticationManager` : 인증 제공자들을 관리하는 인터페이스
+  * `ProviderManager` : 인증 관리자를 구현한 객체
+  ![AuthenticationManager](./image/Authenticatiomanager.png)
 ## 실행 오류
 * [build.gradle - Could not find method compile()](https://devdavelee.tistory.com/29)
     * `compile` 대신 `implementation` 수정 후 reload
