@@ -5,7 +5,7 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="delegatedBuild" value="true" />
-        <option name="testRunner" value="GRADLE" />
+        <option name="testRunner" value="PLATFORM" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="gradleJvm" value="corretto-11" />
@@ -13,6 +13,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/comp/common-utils" />
+            <option value="$PROJECT_DIR$/comp/image" />
+            <option value="$PROJECT_DIR$/server/basic-authentication-test" />
             <option value="$PROJECT_DIR$/server/basic-test" />
             <option value="$PROJECT_DIR$/server/login-basic" />
             <option value="$PROJECT_DIR$/server/login-custom-filter" />

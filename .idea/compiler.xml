@@ -10,11 +10,15 @@
         <module name="spring-data-security.server-login-custom-filter.main" />
         <module name="spring-data-security.server-basic-test.test" />
         <module name="spring-data-security.comp-common-utils.main" />
+        <module name="spring-data-security.comp-image.main" />
+        <module name="spring-data-security.comp-image.test" />
         <module name="spring-data-security.server-login-custom-filter.test" />
         <module name="spring-data-security.server-login-basic.main" />
         <module name="spring-data-security.server-basic-test.main" />
         <module name="spring-data-security.comp-common-utils.test" />
         <module name="spring-data-security.server-login-basic.test" />
+        <module name="spring-data-security.server-basic-authentication-test.main" />
+        <module name="spring-data-security.server-basic-authentication-test.test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11" />

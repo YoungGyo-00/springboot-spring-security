@@ -1,7 +1,9 @@
-# spring-data-security
-안정적인 서비스를 위한 Spring Data & Security
+# springboot-spring-security
+안정적인 서비스를 위한 Spring Data Security
 
 ---
+## 참고 사이트
+* [생성자 주입을 @Autowired를 사용하는 필드 주입보다 권장하는 이유](https://madplay.github.io/post/why-constructor-injection-is-better-than-field-injection)
 ## 필요 개념
 ### Spring Security
 * 스프링 기반의 어플리케이션 보안을 담당하는 프레임워크
@@ -9,19 +11,19 @@
 ### Servlet Container
 * `Tomcat`과 같은 웹 애플리케이션을 서블릿 컨테이너
 * 필터 체인 -> 모든 request는 반드시 거쳐야함
-![Servlet Container - Filter Chain](./image/ServletContainer.png)
+![Servlet Container - Filter Chain](comp/image/ServletContainer.png)
 
 
 ### Security Filters
 * 스프링 시큐리티는 메인 필터 아래, `SecurityFilterChain` 그룹을 등록
 * 필터 체인은 반드시 한개 이상, url 패턴에 따라 다르게 적용할 수 있음.
-![Security Filters](./image/SecurityFilters.png)
+![Security Filters](comp/image/SecurityFilters.png)
 
 
 ### Authentication Structure
 * 로그인 -> `authenticated == true` 인 `Authentication` 객체를 `SecurityContext`에 갖고 있는 상태
 * `AuthenticationManager`를 통해 `Authentication` 인증 -> `SecurityContextHolder`
-![AuthenticationStructure](./image/AuthenticationStructure.png)
+![AuthenticationStructure](comp/image/AuthenticationStructure.png)
 
 
 ### Basic Login
@@ -62,7 +64,7 @@ public class SecurityConfig extends WebSecurityConfigureAdapter{
 * `AuthenticationProvider` : 인증하고, 결과 리턴 -> `support` 메소드 지원
 * `AuthenticationManager` : 인증 제공자들을 관리하는 인터페이스
   * `ProviderManager` : 인증 관리자를 구현한 객체
-  ![AuthenticationManager](./image/Authenticatiomanager.png)
+  ![AuthenticationManager](comp/image/Authenticatiomanager.png)
 ## 실행 오류
 * [build.gradle - Could not find method compile()](https://devdavelee.tistory.com/29)
     * `compile` 대신 `implementation` 수정 후 reload
