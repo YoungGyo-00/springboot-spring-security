@@ -9,16 +9,26 @@
         </processorPath>
         <module name="spring-data-security.server-login-custom-filter.main" />
         <module name="spring-data-security.server-basic-test.test" />
+        <module name="spring-data-security.comp-user-admin.main" />
+        <module name="spring-data-security.server-login-userdetails.main" />
+        <module name="spring-data-security.comp-common-utils.test" />
+        <module name="spring-data-security.server-basic-authentication-test.main" />
+        <module name="spring-data-security.web-user-admin.main" />
+        <module name="spring-data-security.server-basic-authentication-test.test" />
+        <module name="spring-data-security.comp-user-admin.test" />
+        <module name="spring-data-security.server-login-multi-chain.test" />
+        <module name="spring-data-security.server-login-userdetails.test" />
+        <module name="spring-data-security.web-user-admin.test" />
+        <module name="spring-data-security.web-student-teacher.test" />
         <module name="spring-data-security.comp-common-utils.main" />
         <module name="spring-data-security.comp-image.main" />
         <module name="spring-data-security.comp-image.test" />
         <module name="spring-data-security.server-login-custom-filter.test" />
         <module name="spring-data-security.server-login-basic.main" />
         <module name="spring-data-security.server-basic-test.main" />
-        <module name="spring-data-security.comp-common-utils.test" />
+        <module name="spring-data-security.web-student-teacher.main" />
         <module name="spring-data-security.server-login-basic.test" />
-        <module name="spring-data-security.server-basic-authentication-test.main" />
-        <module name="spring-data-security.server-basic-authentication-test.test" />
+        <module name="spring-data-security.server-login-multi-chain.main" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11" />

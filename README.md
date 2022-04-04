@@ -11,19 +11,19 @@
 ### Servlet Container
 * `Tomcat`과 같은 웹 애플리케이션을 서블릿 컨테이너
 * 필터 체인 -> 모든 request는 반드시 거쳐야함
-![Servlet Container - Filter Chain](comp/image/ServletContainer.png)
+![Servlet Container - Filter Chain](image/ServletContainer.png)
 
 
 ### Security Filters
 * 스프링 시큐리티는 메인 필터 아래, `SecurityFilterChain` 그룹을 등록
 * 필터 체인은 반드시 한개 이상, url 패턴에 따라 다르게 적용할 수 있음.
-![Security Filters](comp/image/SecurityFilters.png)
+![Security Filters](image/SecurityFilters.png)
 
 
 ### Authentication Structure
 * 로그인 -> `authenticated == true` 인 `Authentication` 객체를 `SecurityContext`에 갖고 있는 상태
 * `AuthenticationManager`를 통해 `Authentication` 인증 -> `SecurityContextHolder`
-![AuthenticationStructure](comp/image/AuthenticationStructure.png)
+![AuthenticationStructure](image/AuthenticationStructure.png)
 
 
 ### Basic Login
@@ -64,7 +64,13 @@ public class SecurityConfig extends WebSecurityConfigureAdapter{
 * `AuthenticationProvider` : 인증하고, 결과 리턴 -> `support` 메소드 지원
 * `AuthenticationManager` : 인증 제공자들을 관리하는 인터페이스
   * `ProviderManager` : 인증 관리자를 구현한 객체
-  ![AuthenticationManager](comp/image/Authenticatiomanager.png)
+  ![AuthenticationManager](image/Authenticatiomanager.png)
+
+
+### UserDetails
+* `Spring Security` 사용자 정보를 담는 인터페이스
+* 사용자 정보를 불러오기 위해 구현할 인터페이스로 기본 오버라이드 매서드는 다음과 같음
+![UserDetails](image/UserDetails.png)
 ## 실행 오류
 * [build.gradle - Could not find method compile()](https://devdavelee.tistory.com/29)
     * `compile` 대신 `implementation` 수정 후 reload
