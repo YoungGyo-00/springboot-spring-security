@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-data-security.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-data-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/comp/common-utils/spring-data-security.comp-common-utils.iml" filepath="$PROJECT_DIR$/.idea/modules/comp/common-utils/spring-data-security.comp-common-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/comp/common-utils/spring-data-security.comp-common-utils.main.iml" filepath="$PROJECT_DIR$/.idea/modules/comp/common-utils/spring-data-security.comp-common-utils.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/comp/common-utils/spring-data-security.comp-common-utils.test.iml" filepath="$PROJECT_DIR$/.idea/modules/comp/common-utils/spring-data-security.comp-common-utils.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/comp/image/spring-data-security.comp-image.iml" filepath="$PROJECT_DIR$/.idea/modules/comp/image/spring-data-security.comp-image.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/comp/image/spring-data-security.comp-image.main.iml" filepath="$PROJECT_DIR$/.idea/modules/comp/image/spring-data-security.comp-image.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/comp/image/spring-data-security.comp-image.test.iml" filepath="$PROJECT_DIR$/.idea/modules/comp/image/spring-data-security.comp-image.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/comp/user-admin/spring-data-security.comp-user-admin.iml" filepath="$PROJECT_DIR$/.idea/modules/comp/user-admin/spring-data-security.comp-user-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/comp/user-admin/spring-data-security.comp-user-admin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/comp/user-admin/spring-data-security.comp-user-admin.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/comp/user-admin/spring-data-security.comp-user-admin.test.iml" filepath="$PROJECT_DIR$/.idea/modules/comp/user-admin/spring-data-security.comp-user-admin.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/basic-authentication-test/spring-data-security.server-basic-authentication-test.iml" filepath="$PROJECT_DIR$/.idea/modules/server/basic-authentication-test/spring-data-security.server-basic-authentication-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/basic-authentication-test/spring-data-security.server-basic-authentication-test.main.iml" filepath="$PROJECT_DIR$/.idea/modules/server/basic-authentication-test/spring-data-security.server-basic-authentication-test.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/basic-authentication-test/spring-data-security.server-basic-authentication-test.test.iml" filepath="$PROJECT_DIR$/.idea/modules/server/basic-authentication-test/spring-data-security.server-basic-authentication-test.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/basic-test/spring-data-security.server-basic-test.iml" filepath="$PROJECT_DIR$/.idea/modules/server/basic-test/spring-data-security.server-basic-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/basic-test/spring-data-security.server-basic-test.main.iml" filepath="$PROJECT_DIR$/.idea/modules/server/basic-test/spring-data-security.server-basic-test.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/basic-test/spring-data-security.server-basic-test.test.iml" filepath="$PROJECT_DIR$/.idea/modules/server/basic-test/spring-data-security.server-basic-test.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/login-basic/spring-data-security.server-login-basic.iml" filepath="$PROJECT_DIR$/.idea/modules/server/login-basic/spring-data-security.server-login-basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/login-basic/spring-data-security.server-login-basic.main.iml" filepath="$PROJECT_DIR$/.idea/modules/server/login-basic/spring-data-security.server-login-basic.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/login-basic/spring-data-security.server-login-basic.test.iml" filepath="$PROJECT_DIR$/.idea/modules/server/login-basic/spring-data-security.server-login-basic.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/login-custom-filter/spring-data-security.server-login-custom-filter.iml" filepath="$PROJECT_DIR$/.idea/modules/server/login-custom-filter/spring-data-security.server-login-custom-filter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/login-custom-filter/spring-data-security.server-login-custom-filter.main.iml" filepath="$PROJECT_DIR$/.idea/modules/server/login-custom-filter/spring-data-security.server-login-custom-filter.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/login-custom-filter/spring-data-security.server-login-custom-filter.test.iml" filepath="$PROJECT_DIR$/.idea/modules/server/login-custom-filter/spring-data-security.server-login-custom-filter.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/login-multi-chain/spring-data-security.server-login-multi-chain.iml" filepath="$PROJECT_DIR$/.idea/modules/server/login-multi-chain/spring-data-security.server-login-multi-chain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/login-multi-chain/spring-data-security.server-login-multi-chain.main.iml" filepath="$PROJECT_DIR$/.idea/modules/server/login-multi-chain/spring-data-security.server-login-multi-chain.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/login-multi-chain/spring-data-security.server-login-multi-chain.test.iml" filepath="$PROJECT_DIR$/.idea/modules/server/login-multi-chain/spring-data-security.server-login-multi-chain.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/login-userdetails/spring-data-security.server-login-userdetails.iml" filepath="$PROJECT_DIR$/.idea/modules/server/login-userdetails/spring-data-security.server-login-userdetails.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/login-userdetails/spring-data-security.server-login-userdetails.main.iml" filepath="$PROJECT_DIR$/.idea/modules/server/login-userdetails/spring-data-security.server-login-userdetails.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/login-userdetails/spring-data-security.server-login-userdetails.test.iml" filepath="$PROJECT_DIR$/.idea/modules/server/login-userdetails/spring-data-security.server-login-userdetails.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web/student-teacher/spring-data-security.web-student-teacher.iml" filepath="$PROJECT_DIR$/.idea/modules/web/student-teacher/spring-data-security.web-student-teacher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web/student-teacher/spring-data-security.web-student-teacher.main.iml" filepath="$PROJECT_DIR$/.idea/modules/web/student-teacher/spring-data-security.web-student-teacher.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web/student-teacher/spring-data-security.web-student-teacher.test.iml" filepath="$PROJECT_DIR$/.idea/modules/web/student-teacher/spring-data-security.web-student-teacher.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web/user-admin/spring-data-security.web-user-admin.iml" filepath="$PROJECT_DIR$/.idea/modules/web/user-admin/spring-data-security.web-user-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web/user-admin/spring-data-security.web-user-admin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/web/user-admin/spring-data-security.web-user-admin.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web/user-admin/spring-data-security.web-user-admin.test.iml" filepath="$PROJECT_DIR$/.idea/modules/web/user-admin/spring-data-security.web-user-admin.test.iml" />
+    </modules>
+  </component>
+</project>
