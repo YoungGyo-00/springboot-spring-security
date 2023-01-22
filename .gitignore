@@ -4,7 +4,5 @@
 # Ignore Gradle build output directory
 build
 
-*.html
-*.css
-*.js
+패스트캠퍼스 강의/
 *.iml
