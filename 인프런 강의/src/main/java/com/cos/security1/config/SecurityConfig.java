@@ -32,7 +32,10 @@ public class SecurityConfig {
                 .loginPage("/loginForm")
 //                .usernameParameter("\"username2")
                 .loginProcessingUrl("/login")
-                .defaultSuccessUrl("/");
+                .defaultSuccessUrl("/")
+                .and()
+                .oauth2Login()
+                .loginPage("/loginForm"); // 구글 로그인이 완료된 뒤의 후처리가 필요함
 
         return http.build();
     }
