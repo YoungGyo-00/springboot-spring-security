@@ -44,6 +44,7 @@ public class indexController {
             @AuthenticationPrincipal OAuth2User oauth) { // DI
         System.out.println("/test/oauth/login ------");
         OAuth2User oAuth2User = (OAuth2User) authentication.getPrincipal();
+        // Map 객체 반환
         System.out.println("authentication : " +oAuth2User.getAttributes());
         System.out.println("oauth2User : "+oauth.getAttributes());
 
@@ -55,8 +56,11 @@ public class indexController {
         return "index";
     }
 
+    // OAuth 로그인을 해도 PrincipalDetails
+    // 일반 로그인을 해도 PrincipalDetails
     @GetMapping({"/user"})
-    public @ResponseBody String user() {
+    public @ResponseBody String user(@AuthenticationPrincipal PrincipalDetails principalDetails) {
+        System.out.println("PrincipalDetails : "+principalDetails.getUser());
         return "user";
     }
 
