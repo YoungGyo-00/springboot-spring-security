@@ -19,12 +19,12 @@ public class PrincipalDetails implements UserDetails, OAuth2User {
     private User user; // composition
     private Map<String, Object> attributes;
 
-    // 일반 로그인
+    // UserDetails : Form 로그인 시 사용
     public PrincipalDetails(User user) {
         this.user = user;
     }
 
-    // OAuth 로그인
+    // OAuth 로그인 : OAuth2 로그인 시 사용
     public PrincipalDetails(User user, Map<String, Object> attributes) {
         this.user = user;
         this.attributes = attributes;
