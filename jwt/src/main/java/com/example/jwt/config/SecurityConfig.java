@@ -2,6 +2,7 @@ package com.example.jwt.config;
 
 import com.example.jwt.filter.MyFilter1;
 import com.example.jwt.jwt.JwtAuthenticationFilter;
+import com.example.jwt.jwt.JwtAuthorizationFilter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -33,6 +34,7 @@ public class SecurityConfig{
                 .formLogin().disable()
                 .httpBasic().disable()
                 .addFilter(new JwtAuthenticationFilter(authenticationManager(authenticationConfiguration))) // AuthenticationManager
+                .addFilter(new JwtAuthorizationFilter(authenticationManager(), userRepository))
                 .authorizeHttpRequests()
                 .requestMatchers("/api/vi/user/**")
                 .hasAnyAuthority("ROLE_USER", "ROLE_MANAGER", "ROLE_ADMIN")
